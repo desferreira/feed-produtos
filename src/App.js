@@ -6,6 +6,8 @@ import "./output.css";
 import Header from "./components/Header";
 import Footer from "./components/Footer";
 import CounterExample from './components/CounterExample';
+import About from './components/pages/About';
+import Home from "./components/pages/Home";
 
 function App() {
   return (
@@ -15,9 +17,11 @@ function App() {
       <Header />
           <Switch>
             <Route exact path="/">
-              <CounterExample />
+              <Home />
             </Route>
-            <Route path="/about"></Route>
+            <Route path="/about">
+              <About />
+            </Route>
           </Switch>
         <Footer />
       </Router>

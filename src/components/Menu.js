@@ -5,15 +5,25 @@ import { BrowserRouter as Link } from "react-router-dom";
 function Menu(props){
     return (
       <div>
-        <span className="font-bold">This is the menu</span>
+        <div className="font-bold py-3">
+            AppName
+        </div>
         <ul>
           <li>
-            <Link to="/" onClick={() => props.setShowMenu(false)}>
+            <Link
+              to="/"
+              className="text-blue-500 py-3 border-t border-b block"
+              onClick={() => props.setShowMenu(false)}
+            >
               Home
             </Link>
           </li>
           <li>
-            <Link to="/about" onClick={() => props.setShowMenu(false)}>
+            <Link
+              to="/about"
+              className="text-blue-500 py-3 border-t border-b block"
+              onClick={() => props.setShowMenu(false)}
+            >
               About
             </Link>
           </li>
