@@ -266,7 +266,8 @@ textarea {
 /**
  * 1. Add the correct box sizing in IE 10.
  * 2. Remove the padding in IE 10.
- */
+ */npx tailwindcss build styles.css -o output.css
+
 
 [type="checkbox"],
 [type="radio"] {
@@ -109282,4 +109283,8 @@ video {
     -webkit-animation: bounce 1s infinite;
             animation: bounce 1s infinite;
   }
+}
+
+.black-t-50 {
+  background-color: rgba(0, 0, 0, 0.5);
 }
