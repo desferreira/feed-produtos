@@ -1,11 +1,11 @@
 import React from 'react';
 import './App.css';
-import HelloWorld  from './components/HelloWorld'
+import Header from "./components/Header";
 
 function App() {
   return (
-    <div>
-      <HelloWorld name="Diego" />
+    <div className="app-header">
+      <Header name="Diego" />
     </div>
   );
 }
