@@ -1,3 +1,16 @@
+### Home Page
+<img width="402" alt="Captura de Tela 2020-09-07 às 21 41 59" src="https://user-images.githubusercontent.com/58475991/92422306-3448fe80-f153-11ea-9ffd-5b4fc5515a7d.png">
+
+### Menu lateral
+<img width="397" alt="Captura de Tela 2020-09-07 às 21 42 14" src="https://user-images.githubusercontent.com/58475991/92422311-3dd26680-f153-11ea-977b-58c5a0e300d8.png">
+
+
+### Detalhe de item
+<img width="402" alt="Captura de Tela 2020-09-07 às 21 42 25" src="https://user-images.githubusercontent.com/58475991/92422319-475bce80-f153-11ea-8bdf-14b919f3ce54.png">
+
+
+### 
+
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
 ## Available Scripts
